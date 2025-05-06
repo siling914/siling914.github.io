@@ -81,6 +81,7 @@
       <hr>
 
     <form>
+<!-- Overview -->
       <div class="mb-3">
         <label for="exampleInputEmail1" class="form-label">Email address</label>
         <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="We'll never share your email with anyone else.">
@@ -98,7 +99,7 @@
 
       <hr>
       <hr>
-
+<!-- Utilities-->
       <div class="mb-3">
         <label for="formGroupExampleInput" class="form-label">Example label</label>
         <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input placeholder">
@@ -110,7 +111,7 @@
 
       <hr>
       <hr>
-
+<!-- Form grid -->
       <div class="row">
         <div class="col">
           <label class="form-label">名</label>
@@ -128,13 +129,80 @@
 
       <hr>
       <hr>
-      
+<!-- Default -->
       <select class="form-select" aria-label="Default select example">
         <option selected>Open this select menu</option>
         <option value="1">One</option>
-        <option value="2">Two</option>
+        <option value="2" selected>Two</option>
         <option value="3">Three</option>
       </select>
+
+      <hr>
+      <hr>
+<!-- Checks -->
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="checkDefault">
+        <label class="form-check-label" for="checkDefault">
+          Default checkbox
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="checkChecked" checked>
+        <label class="form-check-label" for="checkChecked">
+          Checked checkbox
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="checkDefault">
+        <label class="form-check-label" for="checkDefault">
+          Default checkbox
+        </label>
+      </div>
+
+      <hr>
+      <hr>
+<!-- Radios -->
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="radioDefault" id="radioDefault1">
+        <label class="form-check-label" for="radioDefault1">
+          Default radio
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="radioDefault" id="radioDefault2" checked>
+        <label class="form-check-label" for="radioDefault2">
+          Default checked radio
+        </label>
+      </div>
+
+      <hr>
+      <hr>
+<!-- Switches -->
+      <div class="form-check form-switch">
+        <input class="form-check-input" type="checkbox" role="switch" id="switchCheckDefault">
+        <label class="form-check-label" for="switchCheckDefault">Default switch checkbox input</label>
+      </div>
+      <div class="form-check form-switch">
+        <input class="form-check-input" type="checkbox" role="switch" id="switchCheckChecked" checked>
+        <label class="form-check-label" for="switchCheckChecked">Checked switch checkbox input</label>
+      </div>
+      <div class="form-check form-switch">
+        <input class="form-check-input" type="checkbox" role="switch" id="switchCheckDisabled" disabled>
+        <label class="form-check-label" for="switchCheckDisabled">Disabled switch checkbox input</label>
+      </div>
+      <div class="form-check form-switch">
+        <input class="form-check-input" type="checkbox" role="switch" id="switchCheckCheckedDisabled" checked disabled>
+        <label class="form-check-label" for="switchCheckCheckedDisabled">Disabled checked switch checkbox input</label>
+      </div>
+
+      <hr>
+      <hr>
+<!-- color -->
+      <label for="exampleColorInput" class="form-label">Color picker</label>
+      <input type="color" class="form-control form-control-color" id="exampleColorInput" value="#563d7c" title="Choose your color">
+
+
+
     </form>
 
 
